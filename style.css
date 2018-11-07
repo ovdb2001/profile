@@ -25,10 +25,6 @@ a {
   opacity: 12;
 }
 
-a:hover {
-  opacity: 1;
-}
-
 .container {
   width: 700px;
   margin: 0 auto;
@@ -71,9 +67,9 @@ a:hover {
   align-items: right;
 }
 
-.btn a:hover {
-  opacity: 0.2;
-  transition-duration: 0.5s;
+.btn:hover {
+  opacity: 0.6;
+  transition-duration: 0.3s;
 }
 
 #profile {
@@ -81,8 +77,10 @@ a:hover {
   width: 150px;
 }
 
-#profile a:hover {
-  background-image: "images/pierrot.jpg"
+#profile:hover {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+  background-image: url('images/pierrot.jpg')
 }
 
 #movies img {
@@ -150,7 +148,7 @@ a:hover {
   color: rgb(40 40 40);
 }
 #sidebar a:hover {
-  color: lightgrey;
+  opacity: 0.6;
   transition-duration: 0.5s;
 }
 
