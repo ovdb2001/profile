@@ -59,6 +59,7 @@ a hover {
   margin: 0 20px;
 }
 
+
 .btn {
   font-size: 13px;
   padding: 5px 10px;
@@ -89,8 +90,8 @@ a hover {
 }
 
 #footer a {
-  color: grey;
-  font-size: 15px;
+  color: rgb(200 200 200);
+  font-size: 25px;
 }
 #footer a:hover {
   color: lightgrey;
@@ -113,4 +114,36 @@ a hover {
   .container {
     width: 300px;
   }
+}
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(250,205,72);
+}
+
+#sidebar ul {
+  margin-top: 140px;
+  list-style: none;
+  padding-left: 0px;
+  display: block;
+}
+
+#sidebar ul li {
+  margin: 20px;
+  font-size: 30px;
+}
+
+#sidebar a {
+  color: rgb(40 40 40);
+}
+#sidebar a:hover {
+  color: lightgrey;
+}
+
+#page-content {
+  margin-left: 120px;
 }
