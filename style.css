@@ -75,13 +75,15 @@ a {
 #profile {
   height: 150px;
   width: 150px;
+  display:inline;
 }
 
 #profile:hover {
   opacity: 0.6;
   transition-duration: 0.3s;
-  background-image: url('images/pierrot.jpg')
+  background-image: url('images/pierrot.jpg');
 }
+
 
 #movies img {
   height: 140px;
